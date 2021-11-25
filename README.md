@@ -1,4 +1,11 @@
-# Che-Bao-A-smart-car-voice-control-assistant-based-on-Raspberry-Pi
+# Che Bao -- A voice control assistant for smart car based on Raspberry Pi
+## Brief introduction
 This is a practical project that is further improved on the basis of the design of the microcomputer interface course-a car voice control assistant named Che Bao. Based on the Raspberry Pi 4B development board, Chebao coordinates the fingerprint, voice interaction, vision, sensor and other modules and GPIO resources, and realizes fingerprint unlocking, fatigue detection, voice interaction opening functions and ensuring driving safety functions (such as automatic light on and There are more than 16 functions such as not wearing seat belt alarm); and through multi-threading technology, different functions can be opened at the same time, which is convenient and more in line with safety regulations.
 
-**You can view the specific function demonstration through this link: https://www.bilibili.com/video/BV1254y1j7FW**
+## Attention：
+1. The project was accomplished by 陆胤瑜, 吴佳琦, 陈友民 and 楼杭婷, all are undergraduates of 2018 from the college of computer science and technology of Zhejiang University of Technology(ZJUT).  
+2. File "树莓派开机常用工具/001 基本工具" contains convenient tools for setting up Raspberry Pi, like SD Formatter, IP Scanner, Win32DiskImager, etc.
+3. File "树莓派开机常用工具/002 含opencv与dlib的树莓派镜像" contains one img for Raspberry Pi 4B, with installed development environment OpenCV and Dlib(for human face key points recognition and tracking, used in project's vision module for driver fatigue detection). You can learn more about how to use that through this link: https://blog.csdn.net/stone_stone_stone_st/article/details/91415863?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163780443216780255238344%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=163780443216780255238344&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-91415863.pc_search_result_cache&utm_term=%E6%A0%91%E8%8E%93%E6%B4%BE%E9%95%9C%E5%83%8F+opencv+dlib&spm=1018.2226.3001.4187 
+4. File "Source code" contains codes for each module or function, include them in the same directory and run "Main.py" may help you successfully start the project.
+5. File "Detailed module design document.pdf" contains quite detailed module design and implementation for the project. This may help you with your issues.
+6. **You can view the specific function demonstration through this link: https://www.bilibili.com/video/BV1254y1j7FW**
